@@ -38,6 +38,13 @@
   dependencies:
     "@ag-grid-community/core" "~23.2.0"
 
+"@ag-grid-community/react@^23.2.1":
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/react/-/react-23.2.1.tgz#e47baca884b18a671e468622d4da03c547a38f52"
+  integrity sha512-xvP+ABtDtKADcOQ5dOqOdYN9lT3CYYWSY3yVbWwtAnVzFIaRq6nHvlmIogRp3dzxVA/shOBuRMdmEbPKTYUA4g==
+  dependencies:
+    prop-types "^15.6.2"
+
 "@ag-grid-enterprise/all-modules@^23.2.1":
   version "23.2.1"
   resolved "https://registry.yarnpkg.com/@ag-grid-enterprise/all-modules/-/all-modules-23.2.1.tgz#12d232b8ae0368245291eed44f676ec0fcc10750"
@@ -2514,6 +2521,11 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
+"@types/prettier@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.0.2.tgz#5bb52ee68d0f8efa9cc0099920e56be6cc4e37f3"
+  integrity sha512-IkVfat549ggtkZUthUzEX49562eGikhSYeVGX97SkMFn+sTZrgRewXjQ4tPKFPCykZHkX1Zfd9OoELGqKU2jJA==
+
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
@@ -3161,20 +3173,20 @@ ag-charts-community@~1.2.0:
   resolved "https://registry.yarnpkg.com/ag-charts-community/-/ag-charts-community-1.2.0.tgz#eaf2ddc47df996393fe91536ac1378ed3980d7a3"
   integrity sha512-XMpZ4AE0H7Z84T98Pm8UWMFmdikJIle+3cRfbYsybMGUsx5dtW3WPV4vT17hxLQvrV2kf/si9edVENG1LEcz6A==
 
-ag-grid-community@23.0.2:
-  version "23.0.2"
-  resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-23.0.2.tgz#81fc92ce9e47c75e854337a1e2d8ef950c3a1d51"
-  integrity sha512-UaD4lEVKKVCA2rrgMJJV328sCp5rdR9hgOh6oMUpZRXCke/3m/r2odjGjzvfT7yeLClj6ZdZuCkM4NmEuCZ8KA==
+ag-grid-community@^23.2.1:
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-23.2.1.tgz#0cf2beb7ba2fcf66a4865e45faabdbea173d59b6"
+  integrity sha512-WHfDV7mFsd6eQJ5yOu26nnpnW7Gd02zcp9LHHfKQky8lfgTEo382qcja7MibHzB2f5vOCBdQnOPsWrbBNKRzhQ==
 
 ag-grid-enterprise@^23.2.1:
   version "23.2.1"
   resolved "https://registry.yarnpkg.com/ag-grid-enterprise/-/ag-grid-enterprise-23.2.1.tgz#ec678631ed2fe866e87a43218a98703834d65e5f"
   integrity sha512-qKtzqh9Yu8POnjTVze7IZmbOzywBkD4cqCFuCN0amX38NnFxEVFwxNntfdrUKAzz1m2XV/FOG45B0dy1Pe82vA==
 
-ag-grid-react@22.1.1:
-  version "22.1.1"
-  resolved "https://registry.yarnpkg.com/ag-grid-react/-/ag-grid-react-22.1.1.tgz#59a8ad8e72263e47ccf12718f045dccc425c5f06"
-  integrity sha512-zMz2R3pyo2hEw+GUL0YcsrcMFPxcs7ZjMyhBJpqxfMT/EdwFEGupsrRHKZQjxTaEAgawDhx8Rzt8dNFBLNk3qw==
+ag-grid-react@^23.2.1:
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/ag-grid-react/-/ag-grid-react-23.2.1.tgz#da5d72d50d7fe1c1936860ea4690bc407811d606"
+  integrity sha512-tLbgIyjea5Alt2WsPWVDlfCNkI4gIxg8kWcpl1yTsVboVSwAnagpzFpNpIKsjbf/y4WAuKIQFfA0YXPVw4YRSg==
   dependencies:
     prop-types "^15.6.2"
 
@@ -11522,6 +11534,11 @@ prepend-http@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
+
+prettier@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
+  integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
 
 pretty-bytes@^5.1.0:
   version "5.3.0"
