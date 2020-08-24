@@ -3190,7 +3190,7 @@ ag-grid-react@^23.2.1:
   dependencies:
     prop-types "^15.6.2"
 
-ag-grid@18.1.2:
+ag-grid@^18.1.2:
   version "18.1.2"
   resolved "https://registry.yarnpkg.com/ag-grid/-/ag-grid-18.1.2.tgz#d98b3dd824b9cb82d9f638e4bab5a5771513869b"
   integrity sha512-HtJt8iFcRKCBj5UHBDmwSLLr72F3XDACeBNarH4nJWFHIqcnu7u0Ifrd2nftPmfEBj6YjFHawDqcZL2yo3YfmQ==
