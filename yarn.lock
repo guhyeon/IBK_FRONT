@@ -1370,7 +1370,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1":
+"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.2.0":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
@@ -11752,7 +11752,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@15.x, prop-types@^15.0.0, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.x, prop-types@^15.0.0, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -12487,16 +12487,16 @@ react-focus-lock@^2.1.0:
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
 
-react-grid-layout@^0.18.2:
-  version "0.18.3"
-  resolved "https://registry.yarnpkg.com/react-grid-layout/-/react-grid-layout-0.18.3.tgz#4f9540199f35211077eae0aa5bc83096a672c39c"
-  integrity sha512-lHkrk941Tk5nTwZPa9uj6ttHBT0VehSHwEhWbINBJKvM1GRaFNOefvjcuxSyuCI5JWjVUP+Qm3ARt2470AlxMA==
+react-grid-layout@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-grid-layout/-/react-grid-layout-1.1.0.tgz#b71d8e94fd3f433c973121f5465a288bef3042e6"
+  integrity sha512-jdMsHjxOsrwdpEhCu3ghKP03M/QjR56KhgH9uCIWGd1qqAITYobAksDPk9ppERvkNaGTH+mcSuL0pmQjTcQfeg==
   dependencies:
     classnames "2.x"
     lodash.isequal "^4.0.0"
     prop-types "^15.0.0"
     react-draggable "^4.0.0"
-    react-resizable "^1.9.0"
+    react-resizable "^1.10.0"
 
 react-helmet-async@^1.0.2:
   version "1.0.6"
@@ -12561,10 +12561,10 @@ react-popper@^1.3.4, react-popper@^1.3.7:
     typed-styles "^0.0.7"
     warning "^4.0.2"
 
-react-resizable@^1.9.0:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/react-resizable/-/react-resizable-1.10.1.tgz#f0c2cf1d83b3470b87676ce6d6b02bbe3f4d8cd4"
-  integrity sha512-Jd/bKOKx6+19NwC4/aMLRu/J9/krfxlDnElP41Oc+oLiUWs/zwV1S9yBfBZRnqAwQb6vQ/HRSk3bsSWGSgVbpw==
+react-resizable@^1.10.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/react-resizable/-/react-resizable-1.11.0.tgz#0b237c4aff16937b7663de1045861749683227ad"
+  integrity sha512-VoGz2ddxUFvildS8r8/29UZJeyiM3QJnlmRZSuXm+FpTqq/eIrMPc796Y9XQLg291n2hFZJtIoP1xC3hSTw/jg==
   dependencies:
     prop-types "15.x"
     react-draggable "^4.0.3"
@@ -12687,6 +12687,15 @@ react-smooth@^1.0.5:
     prop-types "^15.6.0"
     raf "^3.4.0"
     react-transition-group "^2.5.0"
+
+react-sortable-hoc@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/react-sortable-hoc/-/react-sortable-hoc-1.11.0.tgz#fe4022362bbafc4b836f5104b9676608a40a278f"
+  integrity sha512-v1CDCvdfoR3zLGNp6qsBa4J1BWMEVH25+UKxF/RvQRh+mrB+emqtVHMgZ+WreUiKJoEaiwYoScaueIKhMVBHUg==
+  dependencies:
+    "@babel/runtime" "^7.2.0"
+    invariant "^2.2.4"
+    prop-types "^15.5.7"
 
 react-sortablejs@^2.0.11:
   version "2.0.11"
