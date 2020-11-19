@@ -5,7 +5,6 @@
   "dependencies": {
     "@ag-grid-community/react": "^23.2.1",
     "@ag-grid-enterprise/all-modules": "^23.2.1",
-    "@ag-grid-enterprise/core": "^23.2.1",
     "@fullcalendar/daygrid": "^5.3.0",
     "@fullcalendar/interaction": "^5.3.0",
     "@fullcalendar/react": "^5.3.0",
@@ -30,10 +29,6 @@
     "@types/react-sortable-hoc": "^0.7.1",
     "@types/react-tooltip": "^3.11.0",
     "@types/recharts": "^1.8.10",
-    "ag-grid": "^18.1.2",
-    "ag-grid-community": "^23.2.1",
-    "ag-grid-enterprise": "^23.2.1",
-    "ag-grid-react": "^23.2.1",
     "alasql": "^0.5.5",
     "antd": "^4.5.2",
     "autoprefixer": "^9.7.4",
@@ -60,6 +55,7 @@
     "react-data-grid": "^7.0.0-alpha.29",
     "react-datepicker": "^2.13.0",
     "react-dom": "^16.13.0",
+    "react-export-excel": "0.5.3",
     "react-grid-layout": "^1.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
@@ -76,17 +72,23 @@
     "xlsx-style": "^0.8.13"
   },
   "scripts": {
-    "start": "npm run watch:css && react-scripts start",
-    "build": "npm run build:css && react-scripts build",
+    "build:prod": "yarn build --prod",
+    "start": "yarn run watch:css && react-scripts --max-old-space-size=8192 start",
+    "build": "yarn run build:css && react-scripts --max-old-space-size=8192 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
-    "watch:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
+    "build:css": "postcss src/assets/styles/tailwind.css -o src/assets/styles/main.css",
+    "watch:css": "postcss src/assets/styles/tailwind.css -o src/assets/styles/main.css",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "react/jsx-pascal-case": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "jsx-a11y/alt-text": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -109,7 +111,10 @@
     "@storybook/preset-create-react-app": "^3.1.2",
     "@storybook/react": "^5.3.19",
     "babel-plugin-recharts": "^1.2.1",
+    "cross-env": "7.0.2",
     "fslightbox-react": "^1.4.9",
-    "mobx-react-devtools": "^6.1.1"
+    "http-proxy-middleware": "0.19.1",
+    "mobx-react-devtools": "^6.1.1",
+    "prettier": "2.0.5"
   }
 }
