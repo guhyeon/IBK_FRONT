@@ -16,8 +16,8 @@ export const HRInfoCard: React.FC<{employeeInfos: Employee}> = ({employeeInfos})
 }
 
 export const EmployeeInfoLists = () => {
-    const allInfos = useRootData(store => store.allInfos);
-    return <HRInfoCard employeeInfos={allInfos}/>
+    // const allInfos = useRootData(store => store.allInfos);
+    // return <HRInfoCard employeeInfos={allInfos}/>
 }
 
 export default EmployeeInfoLists;

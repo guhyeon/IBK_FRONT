@@ -1,7 +1,7 @@
 import React from 'react';
 import {useObserver} from 'mobx-react-lite';
-import {storeContext} from './context';
-import {TStore} from './stores/store';
+// import {StoreContext} from './context';
+// import {TStore} from './stores/store';
 
 
 export const useStoreData = <Selection, ContextData, Store>(
@@ -19,6 +19,6 @@ export const useStoreData = <Selection, ContextData, Store>(
     });
 }
 
-export const useRootData = <Selection>(
-    dataSelector: (store: TStore) => Selection
-) => useStoreData(storeContext, contextData => contextData!, dataSelector)
+// export const useRootData = <Selection>(
+//     dataSelector: (store: TStore) => Selection
+// ) => useStoreData(StoreContext, contextData => contextData!, dataSelector)

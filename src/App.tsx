@@ -1,13 +1,15 @@
 import React from 'react';
 import ChartExample from './components/chartExample'
+import { Router } from './components/common/Router';
 import StoreProvider from './context'
 
 function App() {
   return (
     <StoreProvider>
-    <div className="border">
+      <Router/>
+    {/* <div className="border">
       <ChartExample />
-    </div>
+    </div> */}
     </StoreProvider>
   );
 }
