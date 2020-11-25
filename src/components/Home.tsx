@@ -1,7 +1,7 @@
 import React from 'react';
-import { useStores } from 'src/hooks/useStores';
+// import { useStores } from 'src/hooks/useStores';
 export const Home = () =>{
-    const stores = useStores();
+    // const stores = useStores();
     
     return (
         <div>

@@ -2,7 +2,7 @@ import React from 'react';
 // import {useObserver} from 'mobx-react-lite';
 // import {storeContext} from '../context';
 import {Employee} from '../stores/store';
-import {useRootData} from '../hooks';
+// import {useRootData} from '../hooks';
 // import { HRInfoCardPage } from '../pages/HRInfoCardPage';
 
 export const HRInfoCard: React.FC<{employeeInfos: Employee}> = ({employeeInfos}) => {
