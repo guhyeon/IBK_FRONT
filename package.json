@@ -14,7 +14,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
-    "@types/fslightbox-react": "^1.4.0",
+    "@types/file-saver": "^2.0.1",
     "@types/jest": "^24.9.1",
     "@types/lodash": "^4.14.159",
     "@types/node": "^12.12.28",
@@ -37,7 +37,7 @@
     "axios": "^0.19.2",
     "chart.js": "^2.9.3",
     "class-validator": "0.12.2",
-    "file-saver": "^2.0.2",
+    "file-saver": "^2.0.5",
     "formik": "^2.1.5",
     "hwp.js": "0.0.3",
     "js-file-download": "0.4.12",
@@ -46,6 +46,7 @@
     "mobx-react": "^6.1.8",
     "mobx-react-lite": "^1.5.2",
     "moment": "^2.24.0",
+    "node-excel-export": "^1.4.4",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
     "prettier": "^2.0.5",
@@ -74,7 +75,7 @@
     "tailwindcss": "^1.2.0",
     "typescript": "^3.7.5",
     "xlsx": "^0.15.6",
-    "xlsx-style": "^0.8.13"
+    "xlsx-populate": "^1.21.0"
   },
   "scripts": {
     "build:prod": "yarn build --prod",

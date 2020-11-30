@@ -10,6 +10,7 @@ import 'src/assets/styles/main.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
 LicenseManager.setLicenseKey("");
 ModuleRegistry.registerModules(AllModules);
 
